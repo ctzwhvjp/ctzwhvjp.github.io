@@ -94,7 +94,7 @@
  const pipe = {
      top : {sprite : new Image()},
      bot : {sprite : new Image()},
-     gap:150,
+     gap:130,
      moved: true,
      pipes : [],
      draw : function(){
@@ -313,8 +313,8 @@
 
 gnd.sprite.src="img/ground1.png";
 bg.sprite.src="img/BG1.png";
-pipe.top.sprite.src="img/toppipe.png";
-pipe.bot.sprite.src="img/botpipe.png";
+pipe.top.sprite.src="img/pipe.png";
+pipe.bot.sprite.src="img/pipe.png";
 UI.gameOver.sprite.src="img/go.png";
 UI.getReady.sprite.src="img/getready.png";
 UI.tap[0].sprite.src="img/tap/t0.png";
